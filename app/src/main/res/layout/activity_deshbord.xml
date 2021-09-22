@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Deshbord"
+            android:text="Dashboard"
             android:gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
