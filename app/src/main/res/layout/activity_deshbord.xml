@@ -8,7 +8,6 @@
     tools:context=".deshbord">
 
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="20mm"
@@ -132,11 +131,6 @@
                         android:text="Setting"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
         </LinearLayout>
-
     </LinearLayout>
-
-
-
 </RelativeLayout>
