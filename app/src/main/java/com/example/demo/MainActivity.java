@@ -43,21 +43,15 @@ public class MainActivity extends AppCompatActivity {
         img1.startAnimation(zoomi);
         img2.startAnimation(roteat);
 
-
-
-
-
         new Handler().postDelayed(new Runnable()
         {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this, deshbord.class);
+                Intent i = new Intent(MainActivity.this, enternum.class);
                 startActivity(i);
                 finish();
             }
         },SPLASH_TIME);
-
-
 
     }
 }
