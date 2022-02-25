@@ -27,6 +27,8 @@ public class enternum extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enternum);
 
+        getSupportActionBar().hide();
+
         enternumber = findViewById(R.id.input_mobile_number);
         getotpbytn = findViewById(R.id.buttongetotp);
 

@@ -35,6 +35,7 @@ public class otpcheck extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otpcheck);
+        getSupportActionBar().hide();
 
         final Button verifybuttonclick = findViewById(R.id.buttongetotp);
 
